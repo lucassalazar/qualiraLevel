@@ -2,7 +2,7 @@
 	'use strict'
 
 	const qualiraMonkeys = ['Pira Kids', 'Anatoile', 'KratosPhp', 'Lucão do Java', 'Señor Developer'];
-	let monkeysWithQualiraScore = qualiraMonkeys.map(qualiraMonkey => {
+	const monkeysWithQualiraScore = qualiraMonkeys.map(qualiraMonkey => {
 		return { 
 			monkeyName: qualiraMonkey, 
 			qualiraScore: Math.random() * (10000 * 1) + 1
