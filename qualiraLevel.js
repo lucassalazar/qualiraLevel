@@ -1,7 +1,7 @@
 (function() {
 	'use strict'
 
-	const qualiraMonkeys = ['Pira Kids', 'Anatoile', 'KratosPhp', 'Lucão do Java', 'Señor Developer'];
+	const qualiraMonkeys = ['Pira Kids', 'Anatoile', 'KratosPhp', 'Lucão do Java', 'Señor Developer', 'Leònidas', 'Menino Neitan', 'Felipão V1D4 L0K4'];
 	const monkeysWithQualiraScore = qualiraMonkeys.map(qualiraMonkey => {
 		return { 
 			monkeyName: qualiraMonkey, 
